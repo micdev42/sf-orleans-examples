@@ -10,10 +10,6 @@ Create a blank solution called OrleansTest
 
 ### nuget
 install-package Microsoft.Orleans.OrleansCodeGenerator.Build -project GrainInterfaces
-
-GrainCollection
-install-package Microsoft.Orleans.OrleansCodeGenerator.Build
-
-Host
-install-package Microsoft.Orleans.OrleansRuntime
+install-package Microsoft.Orleans.OrleansCodeGenerator.Build -project GrainCollection
+install-package Microsoft.Orleans.OrleansRuntime -project Host
 

@@ -3,16 +3,18 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2042
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Host", "Host\Host.csproj", "{AE6E9692-D585-485F-8E2A-26B7C163F01A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Host", "Host\Host.csproj", "{AE6E9692-D585-485F-8E2A-26B7C163F01A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GrainInterfaces", "GrainInterfaces\GrainInterfaces.csproj", "{D58DD5DF-BACA-4EB1-B770-ADAD245890C6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GrainInterfaces", "GrainInterfaces\GrainInterfaces.csproj", "{D58DD5DF-BACA-4EB1-B770-ADAD245890C6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GrainCollection", "GrainCollection\GrainCollection.csproj", "{4EA0789D-72F2-4BF2-ACD7-E480B3612339}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GrainCollection", "GrainCollection\GrainCollection.csproj", "{4EA0789D-72F2-4BF2-ACD7-E480B3612339}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E8AF0337-079F-4326-957F-C0FF99E32BAD}"
 	ProjectSection(SolutionItems) = preProject
 		README.md = README.md
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Host2", "Host2\Host2.csproj", "{930E5480-32EC-4D16-AA23-1EE0A102768A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -32,6 +34,10 @@ Global
 		{4EA0789D-72F2-4BF2-ACD7-E480B3612339}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4EA0789D-72F2-4BF2-ACD7-E480B3612339}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4EA0789D-72F2-4BF2-ACD7-E480B3612339}.Release|Any CPU.Build.0 = Release|Any CPU
+		{930E5480-32EC-4D16-AA23-1EE0A102768A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{930E5480-32EC-4D16-AA23-1EE0A102768A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{930E5480-32EC-4D16-AA23-1EE0A102768A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{930E5480-32EC-4D16-AA23-1EE0A102768A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
