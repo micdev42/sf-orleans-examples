@@ -9,8 +9,7 @@ Create a blank solution called OrleansTest
 - New .NET Standard class library called GrainCollection
 
 ### nuget
-GrainInterfaces
-install-package Microsoft.Orleans.OrleansCodeGenerator.Build 
+install-package Microsoft.Orleans.OrleansCodeGenerator.Build -project GrainInterfaces
 
 GrainCollection
 install-package Microsoft.Orleans.OrleansCodeGenerator.Build
