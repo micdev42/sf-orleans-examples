@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="microsoft.orleans.orleansCodeGenerator.Build" Version="2.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Orleans.Core.Abstractions">
+      <HintPath>C:\Users\micbi\.nuget\packages\microsoft.orleans.core.abstractions\2.0.0\lib\netstandard2.0\Orleans.Core.Abstractions.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
